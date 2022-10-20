@@ -36,7 +36,7 @@ while True:
             computer_number = random.choice([1, 2])
             print('This was your number: ' + player_number)
             print('This was the computer number: ' + str(computer_number))
-            if int(player_number) + computer_number % 2 == 1:
+            if int(player_number) + computer_number % 2 not == 0:
                 print('Sorry you lost')
             else:
                 print('Congrats you won!')
